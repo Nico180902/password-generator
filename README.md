@@ -27,7 +27,7 @@ The password generation logic randomizes the selection of characters based on th
 
 ## Live Demo
 
-You can access the live version of the password generator at [https://passwordgen.azurewebsites.net/](https://passwordgen.azurewebsites.net/).
+You can access the live version of the password generator at [https://passwordgen.azurewebsites.net/](https://passwordgen.azurewebsites.net/). Please note that loading the website might take up to a minute if the service is in idle mode.
 
 ## Feedback and Contributions
 
