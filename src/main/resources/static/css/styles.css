@@ -45,7 +45,7 @@ button:hover {
     border-radius: 5px;
     word-wrap: break-word;
     overflow-wrap: break-word;
-    display: block; /
+    display: block;
     max-width: 100%;
     box-sizing: border-box;
 }

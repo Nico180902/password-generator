@@ -9,14 +9,16 @@
 <div class="container">
     <h2>Password Generator</h2>
     <p class="instructions">
-        Use the password generator to create a secure and random password. Select the desired password length by moving the slider. Then, click the "Generate Password" button to get your password.
+        Use the password generator to create a secure and random password. Select the desired password length by moving
+        the slider. Then, click the "Generate Password" button to get your password.
     </p>
     <label for="lengthSlider">Password Length: <span id="lengthDisplay">8</span></label>
-    <input type="range" id="lengthSlider" min="8" max="99" value="8" oninput="lengthDisplay.textContent = this.value">
+    <input type="range" id="lengthSlider" min="8" max="99" value="8">
     <button id="generateButton">Generate Password</button>
     <div id="passwordDisplay" class="password-display"></div>
     <p class="instructions">
-        Your password will be a combination of uppercase and lowercase letters, numbers, and special characters to ensure maximum security.
+        Your password will be a combination of uppercase and lowercase letters, numbers, and special characters to
+        ensure maximum security.
     </p>
 </div>
 <script src="./js/script.js"></script>
